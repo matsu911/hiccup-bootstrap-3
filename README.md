@@ -39,10 +39,15 @@ header:
   (html5
     [:head
       [:title "Bootstrapped Example"]
+      (include-js "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
       (include-bootstrap)]
     [:body
       [:h1 "Bootstrapped Example"]]))
 ```
+
+## jQuery required
+
+Please note that all Bootstrap's JavaScript plugins require jQuery to be included, as shown in the example above.
 
 ## License
 
