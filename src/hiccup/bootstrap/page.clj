@@ -6,7 +6,6 @@
   []
   (list 
    (include-css "/bootstrap/css/bootstrap.css")
-   (include-css "/bootstrap/css/bootstrap-responsive.css")
    (include-js  "/bootstrap/js/bootstrap.js")))
 
 (defn fixed-layout
