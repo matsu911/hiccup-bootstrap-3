@@ -17,9 +17,9 @@
   "Create a Bootstrap table with the supplied styles, head and body. The head
   should be a sequence of column names. The body should be a seq of seqs,
   containing the table data. The styles should be a seq of keywords of the set
-  #{:bordered :striped :condensed}.
+  #{:bordered :striped :hover :condensed}.
 
-  See: http://twitter.github.com/bootstrap/base-css.html#tables"
+  See: http://getbootstrap.com/css/#tables"
   [& {:keys [styles head body]}]
   (let [classes (str "table " (classes-from-keys "table-" styles))]
     [:table {:class classes}
