@@ -4,9 +4,9 @@
 
 (defn icon
   "Create a Bootstrap icon of the supplied type.
-  See: http://twitter.github.com/bootstrap/base-css.html#icons"
+  See: http://glyphicons.getbootstrap.com"
   [type]
-  [:i {:class (str "icon-" (name type))}])
+  [:i {:class (str "glyphicon glyphicon-" (name type))}])
 
 (defn- classes-from-keys [prefix keys]
   (->> keys
