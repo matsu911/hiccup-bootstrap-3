@@ -1,3 +1,4 @@
+/bin
 /target
 /lib
 /classes
@@ -10,3 +11,5 @@ pom.xml.asc
 .lein-failures
 .lein-plugins
 .lein-env
+.classpath
+.project
