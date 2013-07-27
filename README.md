@@ -1,7 +1,7 @@
-# Hiccup-Bootstrap
+# Hiccup-Bootstrap-3
 
 Hiccup-Bootstrap provides [Hiccup][1] functions for Twitter's
-[Bootstrap][2] framework.
+[Bootstrap 3][2] framework.
 
 [1]: https://github.com/weavejester/hiccup
 [2]: http://twitter.github.com/bootstrap/index.html
@@ -10,7 +10,7 @@ Hiccup-Bootstrap provides [Hiccup][1] functions for Twitter's
 
 Add the following dependency to your `project.clj` file:
 
-    [hiccup-bootstrap "0.1.2"]
+    [hiccup-bootstrap-3 "0.2.0-SNAPSHOT"]
 
 Note that if you're using Ring, you'll need version 1.1.0 or later.
 
@@ -52,5 +52,6 @@ Please note that all Bootstrap's JavaScript plugins require jQuery to be include
 ## License
 
 Copyright © 2012 James Reeves
+Copyright © 2013 Alexander Zolotko
 
 Distributed under the Eclipse Public License, the same as Clojure.
