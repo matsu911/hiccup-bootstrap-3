@@ -4,9 +4,8 @@
 (defn include-bootstrap
   "Add Bootstrap CSS and JS resources to the page."
   []
-  (list 
+  (list
    (include-css "/bootstrap/css/bootstrap.css")
-   (include-css "/bootstrap/css/bootstrap-glyphicons.css")
    (include-js  "/bootstrap/js/bootstrap.js")))
 
 (defn fixed-layout
