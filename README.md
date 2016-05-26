@@ -10,7 +10,7 @@ Hiccup-Bootstrap provides [Hiccup][1] functions for Twitter's
 
 Add the following dependency to your `project.clj` file:
 
-    [hiccup-bootstrap-3 "0.2.0-SNAPSHOT"]
+    [matsu911/hiccup-bootstrap-3 "0.2.0-SNAPSHOT"]
 
 Note that if you're using Ring, you'll need version 1.1.0 or later.
 
@@ -34,7 +34,7 @@ header:
 (use 'hiccup.core
      'hiccup.page
      'hiccup.bootstrap.page)
-     
+
 (defn page []
   (html5
     [:head
