@@ -1,4 +1,4 @@
-(defproject matsu911/hiccup-bootstrap-3 "0.2.0-SNAPSHOT"
+(defproject matsu911/hiccup-bootstrap-3 "0.2.1"
   :description "Hiccup functions for Twitter's Bootstrap 3"
   :url "https://github.com/matsu911/hiccup-bootstrap-3"
   :license {:name "Eclipse Public License"
